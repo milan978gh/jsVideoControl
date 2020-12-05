@@ -12,13 +12,11 @@ header {
   place-items: center;
 }
 .video-container {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -2;
 }
 .switch-btn {
   position: absolute;
@@ -29,10 +27,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: .5rem;
+  border-radius: 5px;
   border: none;
   outline: none;
-  transition: all 0.3s linear;
 }
 .play-btn {
   display: inline-block;
